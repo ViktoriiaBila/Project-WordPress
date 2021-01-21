@@ -4,6 +4,10 @@
 	padding: 0;
 }
 
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
 .container {
 	position: relative;
 	width: 1140px;
@@ -19,11 +23,11 @@
 .logo .logo_img, .gift .gift_icon {
 	display: block;
 	margin: 0 auto;
+	font-weight: 500;
 }
 
 .logo .logo_text {
 	color: #fff;
-	font-family: Roboto;
 	font-size: 15px;
 	font-weight: 500;
 	line-height: 24px;
@@ -37,10 +41,9 @@ h1 {
 }
 
 .title {
-	font-family: "Roboto - Black";
 	font-size: 41px;
 	line-height: 24px;
-	font-weight: 400;
+	font-weight: 900;
 	text-transform: uppercase;
 	color: #f9bf3b;
 	text-align: center;
@@ -51,7 +54,6 @@ h2.title {
 }
 
 .simple .title_big {
-	font-family: Roboto;
 	font-size: 80px;
 	font-weight: 900;
 	text-transform: uppercase;
@@ -60,7 +62,6 @@ h2.title {
 	margin-top: 21px;
 }
 .promo .promo_text {
-	font-family: "Roboto Light";
 	font-size: 21px;
 	line-height: 28px;
 	font-weight: 300;
@@ -71,7 +72,6 @@ h2.title {
 }
 
 .promo .promo_text span {
-	font-family: "Roboto - Bold";
 	font-weight: 700;
 	color: #f9bf3b;
 }
@@ -85,10 +85,9 @@ h2.title {
 	margin: 0 auto;
 	margin-top: 73px;
 
-	font-family: "Roboto Condensed";
 	font-size: 21px;
 	line-height: 24px;
-	font-weight: 400;
+	font-weight: 900;
 	text-transform: uppercase;
 	color: #ffffff;
 	cursor: pointer;
